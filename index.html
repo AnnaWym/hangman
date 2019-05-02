@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Szubienica</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css"/>
+
+  </head>
+
+  <body>
+
+    <div class="container text-center">
+            <h1>SZUBIENICA</h1>
+            <h2>JavaScript Hangman Game</h2><br/>
+            <div id="gameArea" class="d-none">
+                <p id="word"></p>
+                <input id="letterInput" maxlength="1"/><button id="checkButton">Check!</button>
+                <p>Pozostałe życia: <span id="lives"></span></p>
+                <p id="gameStatus">Zacznij grę</p>
+                <div>
+                  <canvas id="hangman"></canvas>
+                </div>
+            </div>
+
+            <button id="play">GRAJ</button>
+
+    </div>
+
+
+
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(136, 78, 136);
+    font-size: 20px;
+    font-weight: 450;
+}
+
+button{
+    background-color: rgb(231, 154, 231);
+}
+
+h1{
+    color: rgb(77, 27, 124);
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+h2{
+    color: white;
+}
+
